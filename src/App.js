@@ -8,7 +8,6 @@ import { Box, Container } from '@mui/material';
 import { BookProvider } from './context/BookContext';
 
 const App = () => {
-  // const { isAuthenticated } = useContext(AuthContext);
   const token = localStorage.getItem('token');
 
   return (
